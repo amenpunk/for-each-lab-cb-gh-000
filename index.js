@@ -3,7 +3,7 @@ function iterativeLog(array){
 }
 
 function iterate(callback){
-      let array = ["John Wick", "Neo"];
+      const array = ["John Wick", "Neo"];
 	    array.forEach(callback);
 	    return array;
 }
