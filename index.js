@@ -3,10 +3,9 @@ function iterativeLog(array){
 }
 
 function iterate(callback){
-      var matriz = [1,2,3,4,5]
-      matriz.forEach(callback);
-      return matriz
-}
+      let array = ["John Wick", "Neo"];
+	array.forEach(callback);
+	return array;
 
 function doToArray(array,callback){
       array.forEach(callback);
